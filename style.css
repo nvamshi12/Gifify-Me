@@ -1,0 +1,78 @@
+body {
+  font-family: system-ui;
+  /* font-family: fantasy; */
+  color: brown;
+  color: black;
+  color: rgb(255, 82, 3);
+}
+h1 {
+  text-align: center;
+  font-size: 2.2rem;
+}
+.gif-div {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+img {
+  height: auto;
+  width: auto;
+  aspect-ratio: 1 / 1;
+  height: 20%;
+  width: 40%;
+}
+
+.tag-type {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+button {
+  height: 1.8rem;
+  width: auto;
+  /* margin: 1rem; */
+  border-radius: 1rem;
+  color: black;
+  font-weight: 600;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.comedy {
+  background-color: rgb(250, 136, 250);
+  &:hover {
+    background-color: rgb(247, 93, 247);
+  }
+}
+.movies {
+  background-color: rgb(251, 97, 97);
+  &:hover {
+    background-color: rgb(232, 71, 71);
+  }
+}
+.food {
+  background-color: greenyellow;
+  &:hover {
+    background-color: rgb(146, 229, 22);
+  }
+}
+.sports {
+  background-color: rgb(246, 255, 0);
+  &:hover {
+    background-color: rgb(216, 223, 1);
+  }
+}
+.cute {
+  background-color: rgb(253, 203, 203);
+  &:hover {
+    background-color: rgb(251, 180, 180);
+  }
+}
