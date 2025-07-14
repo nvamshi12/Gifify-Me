@@ -95,14 +95,17 @@ footer {
 
 @media (max-width: 1000px) {
   h1 {
-    font-size: 3.5rem;
-    margin-top: 3.5rem;
+    font-size: 3.8rem;
+    margin-top: 3.1rem;
   }
   button {
-    font-size: 1.5rem;
+    font-size: 2rem;
     height: auto;
-    width: 150px;
-    padding: 0.8rem 1rem;
+    width: 185px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
     border-radius: 2rem;
     margin-top: 2rem;
   }
@@ -115,8 +118,8 @@ footer {
     width: 97%;
   }
   .attribution {
-    height: 35px;
-    width: 200px;
+    height: 40px;
+    width: 205px;
     position: fixed;
     bottom: 0;
     margin: 1.2rem;
